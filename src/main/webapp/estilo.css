@@ -1,0 +1,199 @@
+/* Reset de estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos para el área principal */
+main {
+    text-align: center;
+}
+
+/* Estilos para el botón de carga de firma */
+#inputFirma {
+    display: none;
+}
+
+/* Estilos para los botones */
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #CC0000;
+}
+
+.btn-success {
+    background-color: #28A745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #1E7E34;
+}
+
+/* Estilos para el canvas */
+.signature-canvas {
+    border: 2px solid #000;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+/* Reset de estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos para el área de la firma */
+
+
+/* Estilos para el botón de carga de firma */
+.btn-upload {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.btn-upload:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los botones */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #CC0000;
+}
+
+.btn-success {
+    background-color: #28A745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #1E7E34;
+}
+
+/* Estilos para el canvas */
+
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar firma de usuario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Agregamos Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Solicitar Firma de Usuario</h1>
+            <p>Firmar a continuación:</p>
+        </header>
+        <main>
+            <div class="signature-container">
+                <canvas id="canvas" class="signature-canvas"></canvas>
+                <label for="inputFirma" class="btn btn-upload"><i class="fas fa-upload icon"></i> Subir Firma</label>
+                <input type="file" id="inputFirma" accept="image/*" style="display: none;">
+            </div>
+        </main>
+        <footer>
+            <div class="button-container">
+                <button id="btnLimpiar" class="btn btn-primary"><i class="fas fa-eraser icon"></i> Limpiar</button>
+                <button id="btnDescargar" class="btn btn-primary"><i class="fas fa-download icon"></i> Descargar</button>
+                <button id="btnEliminarFirma" class="btn btn-danger"><i class="fas fa-trash icon"></i> Eliminar Firma</button>
+                <button id="btnGenerarDocumento" class="btn btn-success"><i class="fas fa-file-alt icon"></i> Pasar a documento</button>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
